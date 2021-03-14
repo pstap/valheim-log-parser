@@ -64,3 +64,13 @@ Directory listing of all the files which look like logs based on their names.
 | install_logs.sh          | ?            | ?            | Shell script - should check what this does                           |
 | core_logs.sh             | ?            | ?            | Shell script - should check what this does                           |
 | check_logs.sh            | ?            | ?            | Shell script - should check what this does                           |
+
+
+## Console logs | location - /home/vhserver/log/console
+There are instances that says "Server: New peer connected,sending global keys". Followed by another log line "Got character ZDOID from Richard Flamel : 26869525:7"
+**Characters are assigned an id each  time they connect to a server**
+This is the first time a person connected. "03/12/2021 12:51:57: Got character ZDOID from FartMeister : 1351653627:1" and this is the second time they connected to the same server during the same session in which the server was on. "03/12/2021 12:54:37: Got character ZDOID from FartMeister : 1708501107:1"
+- Session ids can be "negative" ex. 03/13/2021 09:28:37: Got character ZDOID from Richard Flamel : -402550596:10
+
+### Character Deaths
+When a character dies, it looks like this "03/13/2021 12:01:02: Got character ZDOID from Richard Flamel : 0:0" with the 0:0. The next entry in the console log will be the server assigning the character a new id.
