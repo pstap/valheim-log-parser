@@ -44,23 +44,23 @@ Directory listing of all the files which look like logs based on their names.
 
 ## Interesting logs
 
-| Filename                 | Important?   | Contents     | Notes                                                                |
-|--------------------------|--------------|--------------|----------------------------------------------------------------------|
-| vhserver-steamcmd.log    | ?            | ?            |                                                                      |
-| vhserver-script.log      | ?            | ?            | rotating log with date. Ex: vhserver-script-2021-03-11-20:15:58.log  |
-| vhserver-console.log     | ?            | ?            | rotating log with date. Ex: vhserver-console-2021-03-11-20:15:58.log |
-| connection_log.txt       | ?            | ?            |                                                                      |
-| connection_log_2456.txt  | ?            | ?            | Connection log but with running port appended (2456 in this case)    |
-| appinfo_log.txt          | ?            | ?            |                                                                      |
-| configstore_log.txt      | ?            | ?            |                                                                      |
-| stats_log.txt            | ?            | ?            |                                                                      |
-| stderr.txt               | ?            | stderr       |                                                                      |
-| remote_steamcmd.txt      | ?            | ?            |                                                                      |
-| shader_log.txt           | Probably not | Shader logs? |                                                                      |
-| sitelicense_steamcmd.txt | Probably not | ?            |                                                                      |
-| bootstrap_log.txt        | ?            | ?            |                                                                      |
-| content_log.txt          | ?            | ?            |                                                                      |
-| workshop_log.txt         | ?            | ?            | Related to Steam Workshop?                                           |
-| install_logs.sh          | ?            | ?            | Shell script - should check what this does                           |
-| core_logs.sh             | ?            | ?            | Shell script - should check what this does                           |
-| check_logs.sh            | ?            | ?            | Shell script - should check what this does                           |
+| Filename                 | Important?   | Contents                        | Notes                                                                |
+|--------------------------|--------------|---------------------------------|----------------------------------------------------------------------|
+| vhserver-steamcmd.log    | ?            | ?                               |                                                                      |
+| vhserver-script.log      | ?            | ?                               | rotating log with date. Ex: vhserver-script-2021-03-11-20:15:58.log  |
+| vhserver-console.log     | ?            | Player connection. Player death | rotating log with date. Ex: vhserver-console-2021-03-11-20:15:58.log |
+| connection_log.txt       | ?            | ?                               |                                                                      |
+| connection_log_2456.txt  | ?            | ?                               | Connection log but with running port appended (2456 in this case)    |
+| appinfo_log.txt          | ?            | ?                               |                                                                      |
+| configstore_log.txt      | ?            | ?                               |                                                                      |
+| stats_log.txt            | ?            | ?                               |                                                                      |
+| stderr.txt               | ?            | stderr                          |                                                                      |
+| remote_steamcmd.txt      | ?            | ?                               |                                                                      |
+| shader_log.txt           | Probably not | Shader logs?                    |                                                                      |
+| sitelicense_steamcmd.txt | Probably not | ?                               |                                                                      |
+| bootstrap_log.txt        | ?            | ?                               |                                                                      |
+| content_log.txt          | ?            | ?                               |                                                                      |
+| workshop_log.txt         | ?            | ?                               | Related to Steam Workshop?                                           |
+| install_logs.sh          | ?            | ?                               | Shell script - should check what this does                           |
+| core_logs.sh             | ?            | ?                               | Shell script - should check what this does                           |
+| check_logs.sh            | ?            | ?                               | Shell script - should check what this does                           |
